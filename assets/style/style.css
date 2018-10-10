@@ -1,0 +1,118 @@
+.body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container, .headerLeft, .headerCenter, .headerRight, .mainLeft, .mainCenter, .mainRight, .footerFull, .navbar {
+    padding: 0px;
+}
+
+.navbar{
+    background-color:white !important;
+}
+
+.headerLeft, .headerCenter, .headerRight{
+    background-color:white;
+    border-bottom:2px solid #cccccc;
+}
+
+.main{
+    background-image: url("../images/gravel.png");
+    padding:20px 0px;
+}
+
+.mainCenter{
+    background-color: white;
+    padding: 0px 15px;
+}
+
+.mainCenterTitle{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    color: #4aaaa5;
+}
+
+.mainCenterContent{
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+    padding: 15px 15px 30px 15px;
+}
+
+.footerFull{
+    background-color: #666666;
+    border-top:3px solid #4aaaa5;
+    text-align: center;
+    font-size: 8px;
+    color:white;
+    padding-top:20px;
+}
+
+.navbar{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.navbar-brand{
+    color: white !important;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    font-size: 24px;
+    font-weight: bold;
+    padding:15px;
+}
+
+#neilFroggatt{
+    float: left;
+    height: 100px;
+    width: 115px;
+    padding-right:15px;
+}
+
+.contactButton{
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+.contactInput{
+    border-radius: 0px;
+}
+
+.portfolioCard{
+    max-width:100%;
+    height:auto;
+}
+
+.myCard:hover{
+    opacity: 0.5;
+}
+
+.cardLabel{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    line-height: 48px;
+    top: -60px;
+    text-align: center;
+
+}
+
+
+/* media query to stop 'body' from sliding off the left side of the browser window*/
+@media screen and (max-width:586px){
+    body{
+        margin-left: 15px;
+    }
+}
